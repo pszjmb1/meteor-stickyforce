@@ -1,0 +1,33 @@
+ if (Nodes.find().count() === 0) {
+  Nodes.insert({"x": 469, "y": 410});
+  Nodes.insert({"x": 493, "y": 364});
+  Nodes.insert({"x": 442, "y": 365});
+  Nodes.insert({"x": 467, "y": 314});
+  Nodes.insert({"x": 477, "y": 248});
+  Nodes.insert({"x": 425, "y": 207});
+  Nodes.insert({"x": 402, "y": 155});
+  Nodes.insert({"x": 369, "y": 196});
+  Nodes.insert({"x": 350, "y": 148});
+  Nodes.insert({"x": 539, "y": 222});
+  Nodes.insert({"x": 594, "y": 235});
+  Nodes.insert({"x": 582, "y": 185});
+  Nodes.insert({"x": 633, "y": 200});
+  Links.insert({"source":  0, "target":  1});
+  Links.insert({"source":  1, "target":  2});
+  Links.insert({"source":  2, "target":  0});
+  Links.insert({"source":  1, "target":  3});
+  Links.insert({"source":  3, "target":  2});
+  Links.insert({"source":  3, "target":  4});
+  Links.insert({"source":  4, "target":  5});
+  Links.insert({"source":  5, "target":  6});
+  Links.insert({"source":  5, "target":  7});
+  Links.insert({"source":  6, "target":  7});
+  Links.insert({"source":  6, "target":  8});
+  Links.insert({"source":  7, "target":  8});
+  Links.insert({"source":  9, "target":  4});
+  Links.insert({"source":  9, "target": 11});
+  Links.insert({"source":  9, "target": 10});
+  Links.insert({"source": 10, "target": 11});
+  Links.insert({"source": 11, "target": 12});
+  Links.insert({"source": 12, "target": 10});
+}
